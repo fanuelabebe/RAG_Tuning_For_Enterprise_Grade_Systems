@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBBadge, MDBBtn, MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 
 class Table extends Component {
-    tables = [["Name","Title","Status","Position",Action],["Name","Title","Status","Position",Action],["Name","Title","Status","Position",Action]];
+    tables = [["Name","Title","Status","Position","Action"],["Name","Title","Status","Position","Action"],["Name","Title","Status","Position","Action"]];
 
     render() { 
         return (
