@@ -21,3 +21,11 @@ class PromptResult:
         self.faithfulness = faithfulness
         self.answer_relevancy = answer_relevancy
         pass
+
+
+class RankResult:
+    def __init__(self, id, name, rating) -> None:
+        self.id = id
+        self.name = name
+        self.rating = rating
+        pass
