@@ -22,7 +22,7 @@ class RankBase(BaseModel):
     rating: float
 
 
-@app.get("/ranks/", response_model=List[RankBase])
+@app.get("/ranks", response_model=List[RankBase])
 async def return_rank(prompt: str):
     results = evaluate_prompt(prompt)
     return results
